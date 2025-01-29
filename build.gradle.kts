@@ -24,7 +24,6 @@ publishing {
             name = "githubPackages"
             url = uri("https://maven.pkg.github.com/semidude/playground-library")
             credentials {
-                username = "semidude"
                 password = System.getenv("GITHUB_TOKEN")
             }
         }
